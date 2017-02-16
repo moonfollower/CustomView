@@ -65,7 +65,7 @@ public class SearchView extends View {
     // 判断是否已经搜索结束
     private boolean isOver = false;
 
-    private int count = 0;
+    private int count = 0;//次数
 
     //判断控件是否在至行中
     private boolean isOperation = false;
