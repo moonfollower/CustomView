@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.moon.customviewdemo.activity.RadarActivity">
-    <com.example.moon.customviewdemo.radarview.RadarView
+    <com.example.moon.customviewdemo.view.RadarView
         android:id="@+id/radar_view"
         android:layout_width="300dp"
         android:layout_height="300dp" />

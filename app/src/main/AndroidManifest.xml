@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".activity.RadarActivity" />
         <activity android:name=".activity.Bezier1Activity" />
-        <activity android:name=".animation.AnimationActivity"></activity>
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".activity.SearchViewActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.moon.customviewdemo;
+package com.example.moon.customviewdemo.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -7,10 +7,13 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
+
+import com.example.moon.customviewdemo.PieData;
+
 import java.util.List;
 
 /**
- * 自定义饼状图
+ * 自定义饼状图--无文字
  */
 
 public class PieView extends View{

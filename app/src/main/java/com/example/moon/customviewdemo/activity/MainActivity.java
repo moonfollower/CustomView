@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.moon.customviewdemo.PieData;
-import com.example.moon.customviewdemo.PieView;
+import com.example.moon.customviewdemo.view.PieView;
 import com.example.moon.customviewdemo.R;
 import com.example.moon.customviewdemo.animation.AnimationActivity;
 
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private PieView pieView = null;
     private List<PieData> list = new ArrayList<>();
 
-    private Button radar,bezier1,bezier2,anim;
+    private Button radar,bezier1,bezier2,anim,search;
 
 
     @Override
@@ -38,12 +38,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bezier1 = (Button) findViewById(R.id.btn_bezier1);
         bezier2 = (Button) findViewById(R.id.btn_bezier2);
         anim = (Button) findViewById(R.id.btn_anim);
+        search = (Button) findViewById(R.id.btn_search);
 
 
         radar.setOnClickListener(this);
         bezier1.setOnClickListener(this);
         bezier2.setOnClickListener(this);
         anim.setOnClickListener(this);
+        search.setOnClickListener(this);
     }
 
     //模拟数据加载
@@ -68,6 +70,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_anim:
                 intent  = new Intent(MainActivity.this, AnimationActivity.class);
+                break;
+            case R.id.btn_search:
+                intent  = new Intent(MainActivity.this, SearchViewActivity.class);
                 break;
         }
         if(null != intent){

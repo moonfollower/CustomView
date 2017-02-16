@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.moon.customviewdemo.R;
-import com.example.moon.customviewdemo.radarview.RadarView;
+import com.example.moon.customviewdemo.view.RadarView;
 
 public class RadarActivity extends AppCompatActivity {
 

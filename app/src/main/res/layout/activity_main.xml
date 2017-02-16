@@ -11,7 +11,7 @@
         android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <com.example.moon.customviewdemo.PieView
+        <com.example.moon.customviewdemo.view.PieView
             android:id="@+id/pieView_activity_main"
             android:layout_width="400dp"
             android:layout_height="400dp" />
@@ -34,6 +34,12 @@
             android:text="动画"
             android:id="@+id/btn_anim"
             android:layout_width="wrap_content"  
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="搜索控件"
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
 

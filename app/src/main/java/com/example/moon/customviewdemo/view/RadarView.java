@@ -1,4 +1,4 @@
-package com.example.moon.customviewdemo.radarview;
+package com.example.moon.customviewdemo.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

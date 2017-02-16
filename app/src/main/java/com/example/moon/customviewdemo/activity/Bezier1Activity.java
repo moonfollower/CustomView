@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.moon.customviewdemo.R;
-import com.example.moon.customviewdemo.radarview.Bezier;
+import com.example.moon.customviewdemo.view.Bezier;
 
 public class Bezier1Activity extends AppCompatActivity {
 
